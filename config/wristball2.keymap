@@ -62,6 +62,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        BT_Next {
+            bindings = <&bt BT_NXT>;
+            key-positions = <0 1>;
+        };
+
+        BT_Pre {
+            bindings = <&bt BT_PRV>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
